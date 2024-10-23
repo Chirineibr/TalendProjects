@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ciMzkqTLEe6h1vhPrM9qqA" dataPackage="_ciMzk6TLEe6h1vhPrM9qqA"/>
+  <TalendMetadata:GenericPackage xmi:id="_ciMzk6TLEe6h1vhPrM9qqA" dataManager="_ciMzkqTLEe6h1vhPrM9qqA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ciMzlKTLEe6h1vhPrM9qqA" id="_ciMzkKTLEe6h1vhPrM9qqA" label="core_country">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzlaTLEe6h1vhPrM9qqA" name="ID" label="ID" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_ciMzlqTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzl6TLEe6h1vhPrM9qqA" name="COUNTRY_CODE" label="COUNTRY_CODE" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMzmKTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzmaTLEe6h1vhPrM9qqA" name="COUNTRY_DESC" label="COUNTRY_DESC" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMzmqTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzm6TLEe6h1vhPrM9qqA" name="COUNTRY_DESC_ALT" label="COUNTRY_DESC_ALT" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMznKTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMznaTLEe6h1vhPrM9qqA" name="CREATED_BY" label="CREATED_BY" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_ciMznqTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzn6TLEe6h1vhPrM9qqA" name="CREATED_ON" label="CREATED_ON" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMzoKTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzoaTLEe6h1vhPrM9qqA" name="DIALING_CODE" label="DIALING_CODE" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMzoqTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzo6TLEe6h1vhPrM9qqA" name="EDITED_BY" label="EDITED_BY" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMzpKTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzpaTLEe6h1vhPrM9qqA" name="EDITED_ON" label="EDITED_ON" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMzpqTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzp6TLEe6h1vhPrM9qqA" name="INACTIVATION_DATE" label="INACTIVATION_DATE" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMzqKTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzqaTLEe6h1vhPrM9qqA" name="IS_INACTIVE" label="IS_INACTIVE" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_ciMzqqTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzq6TLEe6h1vhPrM9qqA" name="IS_SANCTIONED" label="IS_SANCTIONED" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_ciMzrKTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzraTLEe6h1vhPrM9qqA" name="IS_USA_TIN_REQUIRED" label="IS_USA_TIN_REQUIRED" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_ciMzrqTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzr6TLEe6h1vhPrM9qqA" name="MOBILE_REG_EX" label="MOBILE_REG_EX" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMzsKTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzsaTLEe6h1vhPrM9qqA" name="NATIONALITY_DESC" label="NATIONALITY_DESC" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMzsqTLEe6h1vhPrM9qqA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ciMzs6TLEe6h1vhPrM9qqA" name="NATIONALITY_DESC_ALT" label="NATIONALITY_DESC_ALT" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_ciMztKTLEe6h1vhPrM9qqA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_RyNlIKSyEe66t_stUYgOYA" dataPackage="_RyNlIaSyEe66t_stUYgOYA"/>
+  <TalendMetadata:GenericPackage xmi:id="_RyNlIaSyEe66t_stUYgOYA" dataManager="_RyNlIKSyEe66t_stUYgOYA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RyNlIqSyEe66t_stUYgOYA" id="_RyMXAKSyEe66t_stUYgOYA" label="contact">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlI6SyEe66t_stUYgOYA" name="ID" label="ID" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_RyNlJKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlJaSyEe66t_stUYgOYA" name="ALT_FIRST_NAME" label="ALT_FIRST_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlJqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlJ6SyEe66t_stUYgOYA" name="ALT_LAST_NAME" label="ALT_LAST_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlKKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlKaSyEe66t_stUYgOYA" name="ALT_MIDDLE_NAME" label="ALT_MIDDLE_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlKqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlK6SyEe66t_stUYgOYA" name="ALT_MOTHER_FIRST_NAME" label="ALT_MOTHER_FIRST_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlLKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlLaSyEe66t_stUYgOYA" name="ALT_MOTHER_LAST_NAME" label="ALT_MOTHER_LAST_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlLqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlL6SyEe66t_stUYgOYA" name="ALT_PRINT_NAME" label="ALT_PRINT_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlMKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlMaSyEe66t_stUYgOYA" name="COMPANY_ID" label="COMPANY_ID" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlMqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlM6SyEe66t_stUYgOYA" name="CONTACT_NO" label="CONTACT_NO" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_RyNlNKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlNaSyEe66t_stUYgOYA" name="CONTACT_TYPE" label="CONTACT_TYPE" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_RyNlNqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlN6SyEe66t_stUYgOYA" name="COUNTRY_ID" label="COUNTRY_ID" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_RyNlOKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlOaSyEe66t_stUYgOYA" name="CREATED_BY" label="CREATED_BY" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_RyNlOqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlO6SyEe66t_stUYgOYA" name="CREATED_ON" label="CREATED_ON" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlPKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlPaSyEe66t_stUYgOYA" name="DOB" label="DOB" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlPqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlP6SyEe66t_stUYgOYA" name="DRIVING_LICENSE_CITY" label="DRIVING_LICENSE_CITY" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlQKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlQaSyEe66t_stUYgOYA" name="DRIVING_LICENSE_EXPIRY_DATE" label="DRIVING_LICENSE_EXPIRY_DATE" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlQqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlQ6SyEe66t_stUYgOYA" name="DRIVING_LICENSE_ISSUE_DATE" label="DRIVING_LICENSE_ISSUE_DATE" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlRKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlRaSyEe66t_stUYgOYA" name="DRIVING_LICENSE_NO" label="DRIVING_LICENSE_NO" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlRqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlR6SyEe66t_stUYgOYA" name="EDITED_BY" label="EDITED_BY" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_RyNlSKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlSaSyEe66t_stUYgOYA" name="EDITED_ON" label="EDITED_ON" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlSqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlS6SyEe66t_stUYgOYA" name="FIRST_NAME" label="FIRST_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlTKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlTaSyEe66t_stUYgOYA" name="GENDER" label="GENDER" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_RyNlTqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlT6SyEe66t_stUYgOYA" name="IDENTITY_NO" label="IDENTITY_NO" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlUKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlUaSyEe66t_stUYgOYA" name="IDENTITY_TYPE" label="IDENTITY_TYPE" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlUqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlU6SyEe66t_stUYgOYA" name="IS_SMOKER" label="IS_SMOKER" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_RyNlVKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlVaSyEe66t_stUYgOYA" name="JOB_TITLE_ID" label="JOB_TITLE_ID" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlVqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlV6SyEe66t_stUYgOYA" name="LANGUAGE_ID" label="LANGUAGE_ID" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlWKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlWaSyEe66t_stUYgOYA" name="LAST_NAME" label="LAST_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlWqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlW6SyEe66t_stUYgOYA" name="MARITAL_STATUS" label="MARITAL_STATUS" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlXKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlXaSyEe66t_stUYgOYA" name="MIDDLE_NAME" label="MIDDLE_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlXqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlX6SyEe66t_stUYgOYA" name="MOTHER_FIRST_NAME" label="MOTHER_FIRST_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlYKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlYaSyEe66t_stUYgOYA" name="MOTHER_LAST_NAME" label="MOTHER_LAST_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlYqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlY6SyEe66t_stUYgOYA" name="NATIONALITY_ID" label="NATIONALITY_ID" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_RyNlZKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlZaSyEe66t_stUYgOYA" name="NSSF_NO" label="NSSF_NO" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlZqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlZ6SyEe66t_stUYgOYA" name="PASSPORT_NO" label="PASSPORT_NO" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlaKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlaaSyEe66t_stUYgOYA" name="PLACE_OF_BIRTH" label="PLACE_OF_BIRTH" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlaqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNla6SyEe66t_stUYgOYA" name="PRINT_NAME" label="PRINT_NAME" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlbKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlbaSyEe66t_stUYgOYA" name="PROFESSION_ID" label="PROFESSION_ID" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlbqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlb6SyEe66t_stUYgOYA" name="REGISTER_AREA_ID" label="REGISTER_AREA_ID" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlcKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlcaSyEe66t_stUYgOYA" name="REGISTER_CITY_ID" label="REGISTER_CITY_ID" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlcqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlc6SyEe66t_stUYgOYA" name="REGISTER_DATE" label="REGISTER_DATE" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNldKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNldaSyEe66t_stUYgOYA" name="REGISTER_NO" label="REGISTER_NO" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNldqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNld6SyEe66t_stUYgOYA" name="REGISTER_ZONE_ID" label="REGISTER_ZONE_ID" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNleKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNleaSyEe66t_stUYgOYA" name="SECOND_NATIONALITY_ID" label="SECOND_NATIONALITY_ID" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNleqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNle6SyEe66t_stUYgOYA" name="TCN" label="TCN" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlfKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlfaSyEe66t_stUYgOYA" name="TCN_CITY" label="TCN_CITY" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlfqSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlf6SyEe66t_stUYgOYA" name="TITLE_ID" label="TITLE_ID" length="65535" sourceType="TEXT" talendType="id_String">
+        <initialValue xmi:id="_RyNlgKSyEe66t_stUYgOYA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyNlgaSyEe66t_stUYgOYA" name="TITLE_DESC" label="TITLE_DESC" length="45" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RyNlgqSyEe66t_stUYgOYA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

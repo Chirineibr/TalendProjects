@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x1929a555d62' V1='4' name='pppp' incarnation='263'>
+  <rootElem t='167' id='203' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='204' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row' checksumValid='true' checksum='BxVJhKiZMFRNQEeuvu/oc299Hjk='>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='205' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSISDN'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='206' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SUBSCRIPTION_ID'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='207' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OFFER_NAME'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='208' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='BUCKET_NAME'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='209' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='INIT_BALANCE'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='210' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CURRENT_BALANCE'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='211' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PURCHASE_DATE'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='212' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EXPIRY_DATE'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='178' id='213' V178='1' V170='10' V698='1' V690='1' padOutput='true' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='Map'>
+  </defaultRep>
+  <child t='162' id='13' V1='4' name='Representations'>
+    <child t='178' idref='213'/>
+  </child>
+  <child t='165' id='14' V1='4' name='Document Bindings'>
+    <child t='166' id='26' V166='5' docType='1' V1='4' name='/root'>
+      <elemNode t='167' id='192' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='193' idref='204' isChecksumRef='true'/>
+      </elemNode>
+    </child>
+  </child>
+</root>

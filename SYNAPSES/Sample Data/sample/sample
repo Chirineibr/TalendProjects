@@ -1,0 +1,525 @@
+{
+    "665706130": {
+        "validityTime": 1734723665153,
+        "subIds": [
+            "dce562f5-3f39-450f-8192-451b8ef3969d||210005362920401",
+            "d4f0015f-9d1f-40d6-aeaa-851bc0d9282a||210005362920401"
+        ],
+        "schemaVersion": 0,
+        "e164": [
+            "964665706130"
+        ],
+        "creationTime": 1707263284782,
+        "syncOp": 0,
+        "language": "Kurdish",
+        "syOCSEnabled": 1,
+        "imsi": [
+            "418666605706130"
+        ],
+        "ownerId": "665706130||210005362920401",
+        "deviceName": "665706130",
+        "notifProfile": "defaultNotificationProfile",
+        "states": {
+            "0": "Device_ELC_commercial_Active"
+        },
+        "srvProvider": "fastlink",
+        "lifeCycleNames": {
+            "0": "Device_ELC_commercial"
+        },
+        "temElcInfo": {
+            "timer": 1734723665153,
+            "temId": "1-1-LC_1-DEVICE_TYPE:665706130||210005362920401:Device_ELC_commercial_Active:4Daystobarred:ENTITY"
+        },
+        "edigest": "GvDJhVEFk1f4qptSSAFWgLDPMC4=",
+        "id": "665706130||210005362920401",
+        "lastUpdateTime": 1727036692779,
+        "timeOfDay": {
+            "timeZone": "Asia/Baghdad"
+        },
+        "primarySiteId": 1,
+        "partition": 1,
+        "customData": {
+            "DeviceType": {
+                "type": 0,
+                "value": "smartphone"
+            },
+            "PCC": {
+                "type": 2,
+                "value": "1"
+            },
+            "DynamicDeviceType": {
+                "type": 0,
+                "value": "smartphone"
+            },
+            "edigest": "SC5C5DSNHWfCAvWuDZSmKinDP14=",
+            "Suspend": {
+                "type": 0,
+                "value": "false"
+            },
+            "NonPCC": {
+                "type": 2,
+                "value": "0"
+            },
+            "DynamicZone": {
+                "type": 0,
+                "value": "erbil_center"
+            },
+            "IMEI": {
+                "type": 0,
+                "value": "35299048"
+            },
+            "ActivationDate": {
+                "type": 6,
+                "value": "1477564536000"
+            },
+            "StaticZone": {
+                "type": 0,
+                "value": "erbil_center"
+            },
+            "CellID": {
+                "type": 0,
+                "value": "427778"
+            },
+            "Profile": {
+                "type": 0,
+                "value": "Zone"
+            }
+        },
+        "subscriptions": {
+            "dce562f5-3f39-450f-8192-451b8ef3969d||210005362920401": {
+                "isDiscounted": 0,
+                "deviceIds": [
+                    "665706130||210005362920401"
+                ],
+                "temPlcInfo": {
+                    "timer": 1727038800000,
+                    "temId": "1-1-LC_1-SUBSCRIPTION_TYPE:dce562f5-3f39-450f-8192-451b8ef3969d||210005362920401:PLC_Primary_Offer_F_Active:RepeatCycleEvent:PERIOD",
+                    "randTimer": 1727040655000
+                },
+                "acctBalances": {
+                    "edigest": "SC5C5DSNHWfCAvWuDZSmKinDP14=",
+                    "schemaVersion": 0,
+                    "id": "665706130||210005362920401",
+                    "avlBalance": 4673150917443321856,
+                    "balance": 4673150917443321856
+                },
+                "creationTime": 1707263284792,
+                "csiList": [
+                    {
+                        "edigest": "SC5C5DSNHWfCAvWuDZSmKinDP14=",
+                        "creationTime": 1707263284792,
+                        "bktInfoList": [
+                            {
+                                "bktUnitType": {
+                                    "schemaVersion": 0,
+                                    "id": "KByte",
+                                    "version": 0,
+                                    "kindOfUnit": 1
+                                },
+                                "hasLifeCycle": 0,
+                                "bktInstId": "881d6278-9279-4067-9eaf-cf31d8722e43||210005362920401",
+                                "bktDefName": "vol_wscapp"
+                            }
+                        ],
+                        "csDefRef": "CL_5G_Fastlink_Primary_offer",
+                        "bcktInsts": [
+                            {
+                                "schemaVersion": 0,
+                                "creationTime": 1707263284793,
+                                "csId": "CL_5G_Fastlink_Primary_offer",
+                                "prevUnusedVal": 1072681469,
+                                "lastResetTime": 1726953143876,
+                                "reservationMap": {
+                                    "1-1-130.193.192.142;3935605922;70908377;70841979;964665706130;418666605706130;10.103.231.245;EBLdc1_CloudCGW01_RG1010": {
+                                        "reservedValue": 209715200,
+                                        "ttl": 21600
+                                    }
+                                },
+                                "adjAmtInitVald": -1,
+                                "prevInitialVal": 1073741824,
+                                "prevCurrentVal": 1072681469,
+                                "unitType": {
+                                    "schemaVersion": 0,
+                                    "id": "KByte",
+                                    "version": 0,
+                                    "kindOfUnit": 1
+                                },
+                                "bucketDefId": "vol_wscapp",
+                                "countCCR": 120,
+                                "id": "881d6278-9279-4067-9eaf-cf31d8722e43||210005362920401",
+                                "accountRef": "665706130||210005362920401",
+                                "subscriptionId": "dce562f5-3f39-450f-8192-451b8ef3969d",
+                                "initialValue": 1073741824,
+                                "unusedValue": 1072885241,
+                                "currentValue": 863170041,
+                                "lastUpdateTime": 1726953143877,
+                                "origInitialVal": 1073741824
+                            }
+                        ]
+                    }
+                ],
+                "feeMisdPrd": 0,
+                "subHistList": {
+                    "0": {},
+                    "1": {}
+                },
+                "renewalMode": 0,
+                "states": {
+                    "0": "ELC_Primary_Offer_Fastlink_F_Active",
+                    "1": "PLC_Primary_Offer_F_Active"
+                },
+                "edigest": "GvDJhVEFk1f4qptSSAFWgLDPMC4=",
+                "startTime": 1726952400000,
+                "initialBarred": 0,
+                "id": "dce562f5-3f39-450f-8192-451b8ef3969d||210005362920401",
+                "activationTime": 1707263284792,
+                "lifeCycleSNR": 0,
+                "schemaVersion": 0,
+                "bdlRef": "Fastlink_Primary_offer",
+                "refBunCustom": 0,
+                "lastResetTime": 1726953143876,
+                "inputDate": 1476080071000,
+                "srvProvider": "fastlink",
+                "accRef": "665706130||210005362920401",
+                "renewalUpdated": 0,
+                "lifeCycleNames": {
+                    "0": "ELC_Primary_Offer_Fastlink_F",
+                    "1": "PLC_Primary_Offer_F"
+                },
+                "subType": 0,
+                "templateBld": {
+                    "validityTime": 0,
+                    "id": "Fastlink_Primary_offer",
+                    "chgSrvList": [
+                        {
+                            "bktGlobalList": [
+                                {
+                                    "unitType": {
+                                        "schemaVersion": 0,
+                                        "id": "KByte",
+                                        "version": 0,
+                                        "kindOfUnit": 1
+                                    },
+                                    "initVal": 1073741824,
+                                    "id": "vol_wscapp"
+                                }
+                            ],
+                            "id": "CL_5G_Fastlink_Primary_offer"
+                        }
+                    ],
+                    "lifeCycleNames": {
+                        "0": "ELC_Primary_Offer_Fastlink_F",
+                        "1": "PLC_Primary_Offer_F"
+                    },
+                    "fee": "0"
+                },
+                "endTime": 1727038800000
+            },
+            "d4f0015f-9d1f-40d6-aeaa-851bc0d9282a||210005362920401": {
+                "isDiscounted": 0,
+                "deviceIds": [
+                    "665706130||210005362920401"
+                ],
+                "temPlcInfo": {
+                    "timer": 1727206860000,
+                    "temId": "1-1-LC_1-SUBSCRIPTION_TYPE:d4f0015f-9d1f-40d6-aeaa-851bc0d9282a||210005362920401:PLC_FUPSubscription_30D_Active2:1DayBeforeExpiray:PERIOD",
+                    "randTimer": 1727206860000
+                },
+                "acctBalances": {
+                    "edigest": "SC5C5DSNHWfCAvWuDZSmKinDP14=",
+                    "schemaVersion": 0,
+                    "id": "665706130||210005362920401",
+                    "avlBalance": 4673150917443321856,
+                    "balance": 4673150917443321856
+                },
+                "creationTime": 1724701265160,
+                "csiList": [
+                    {
+                        "edigest": "SC5C5DSNHWfCAvWuDZSmKinDP14=",
+                        "creationTime": 1724701265161,
+                        "bktInfoList": [
+                            {
+                                "bktUnitType": {
+                                    "schemaVersion": 0,
+                                    "id": "KByte",
+                                    "version": 44,
+                                    "kindOfUnit": 1
+                                },
+                                "hasLifeCycle": 0,
+                                "bktInstId": "97d32fa1-1877-4f73-bae9-28b47f43d1bc||210005362920401",
+                                "bktDefName": "Vol_Porsch_FUP_WSC_Low",
+                                "policyCntrName": "fastlink_global"
+                            }
+                        ],
+                        "csDefRef": "CL_Porsch_FUP_WSC_Low",
+                        "bcktInsts": [
+                            {
+                                "schemaVersion": 0,
+                                "creationTime": 1724701265161,
+                                "defaultState": "-99",
+                                "csId": "CL_Porsch_FUP_WSC_Low",
+                                "syPolicyFlag": 1,
+                                "lastResetTime": 1724701265161,
+                                "unitType": {
+                                    "schemaVersion": 0,
+                                    "id": "KByte",
+                                    "version": 44,
+                                    "kindOfUnit": 1
+                                },
+                                "bucketDefId": "Vol_Porsch_FUP_WSC_Low",
+                                "countCCR": 0,
+                                "policyCntrName": "fastlink_global",
+                                "thrsPrfGrpInst": [
+                                    {
+                                        "lastSyncTime": 1724701265161,
+                                        "schemaVersion": 0,
+                                        "dynamicFlag": 0,
+                                        "ThresProfInst": [
+                                            {
+                                                "threshInstList": [
+                                                    {
+                                                        "notiSendCount": 0,
+                                                        "threshDefName": "Th0",
+                                                        "timeDayNotiSe": 0,
+                                                        "level": 0,
+                                                        "annSendCount": 0,
+                                                        "customizedVal": 0,
+                                                        "thresholdValue": 0,
+                                                        "threshCrossed": 0,
+                                                        "overageFlag": 0,
+                                                        "sendNotif": 0,
+                                                        "actionResult": 0,
+                                                        "rarSend": 0,
+                                                        "timeOfAnnSent": 0
+                                                    },
+                                                    {
+                                                        "notiSendCount": 0,
+                                                        "threshDefName": "Th1",
+                                                        "timeDayNotiSe": 0,
+                                                        "level": 0,
+                                                        "annSendCount": 0,
+                                                        "customizedVal": 0,
+                                                        "thresholdValue": 100,
+                                                        "threshCrossed": 0,
+                                                        "overageFlag": 0,
+                                                        "sendNotif": 0,
+                                                        "actionResult": 0,
+                                                        "rarSend": 0,
+                                                        "timeOfAnnSent": 0
+                                                    }
+                                                ],
+                                                "interval": 0,
+                                                "thrPrfDefName": "thresholdProfileName0",
+                                                "provInterval": 0
+                                            }
+                                        ],
+                                        "thPfGrpDefName": "Th_Porsch_FUP_WSC_LOW.Threshold"
+                                    }
+                                ],
+                                "id": "97d32fa1-1877-4f73-bae9-28b47f43d1bc||210005362920401",
+                                "accountRef": "665706130||210005362920401",
+                                "subscriptionId": "d4f0015f-9d1f-40d6-aeaa-851bc0d9282a",
+                                "initialValue": 21474836480,
+                                "unusedValue": 21474836480,
+                                "currentValue": 21474836480,
+                                "origInitialVal": 21474836480
+                            }
+                        ]
+                    },
+                    {
+                        "edigest": "SC5C5DSNHWfCAvWuDZSmKinDP14=",
+                        "creationTime": 1724701265162,
+                        "bktInfoList": [
+                            {
+                                "bktUnitType": {
+                                    "schemaVersion": 0,
+                                    "id": "KByte",
+                                    "version": 44,
+                                    "kindOfUnit": 1
+                                },
+                                "hasLifeCycle": 0,
+                                "bktInstId": "2c60cc21-91f2-405a-ae31-dc7aa5cae170||210005362920401",
+                                "bktDefName": "Vol_Porsch_FUP_WSC_High",
+                                "policyCntrName": "fastlink_global"
+                            }
+                        ],
+                        "csDefRef": "CL_Porsch_FUP_WSC_high",
+                        "bcktInsts": [
+                            {
+                                "creationTime": 1724701265163,
+                                "defaultState": "-99",
+                                "csId": "CL_Porsch_FUP_WSC_high",
+                                "lstSNRRprtSt": "40",
+                                "unitType": {
+                                    "schemaVersion": 0,
+                                    "id": "KByte",
+                                    "version": 44,
+                                    "kindOfUnit": 1
+                                },
+                                "bucketDefId": "Vol_Porsch_FUP_WSC_High",
+                                "countCCR": 643,
+                                "lstTPGName": "Th_Porsch_FUP_WSC_High",
+                                "id": "2c60cc21-91f2-405a-ae31-dc7aa5cae170||210005362920401",
+                                "initialValue": 139586437120,
+                                "unusedValue": 104903717888,
+                                "schemaVersion": 0,
+                                "lastRprtTime": 1726969653123,
+                                "syPolicyFlag": 1,
+                                "lastResetTime": 1724701265163,
+                                "reservationMap": {
+                                    "1-1-130.193.192.142;3935605922;70908377;70841979;964665706130;418666605706130;10.103.231.245;EBLdc1_CloudCGW01_RG1050": {
+                                        "reservedValue": 104857600,
+                                        "ttl": 3600
+                                    },
+                                    "1-1-130.193.192.142;3935605922;70908377;70841979;964665706130;418666605706130;10.103.231.245;EBLdc1_CloudCGW01_RG1030": {
+                                        "reservedValue": 104857600,
+                                        "ttl": 3600
+                                    },
+                                    "1-1-130.193.192.142;3935605922;70908377;70841979;964665706130;418666605706130;10.103.231.245;EBLdc1_CloudCGW01_RG1020": {
+                                        "reservedValue": 104857600,
+                                        "ttl": 3600
+                                    }
+                                },
+                                "lstSNRRprtTm": 1727036692773,
+                                "lastRprtState": "40",
+                                "expirationTime": 1727293260,
+                                "policyCntrName": "fastlink_global",
+                                "thrsPrfGrpInst": [
+                                    {
+                                        "lastSyncTime": 1724701265163,
+                                        "schemaVersion": 0,
+                                        "dynamicFlag": 0,
+                                        "ThresProfInst": [
+                                            {
+                                                "threshInstList": [
+                                                    {
+                                                        "notiSendCount": 0,
+                                                        "threshDefName": "Th0",
+                                                        "timeDayNotiSe": 0,
+                                                        "level": 0,
+                                                        "annSendCount": 0,
+                                                        "customizedVal": 0,
+                                                        "thresholdValue": 0,
+                                                        "threshCrossed": 1,
+                                                        "overageFlag": 0,
+                                                        "sendNotif": 0,
+                                                        "actionResult": 0,
+                                                        "rarSend": 0,
+                                                        "timeOfAnnSent": 0
+                                                    },
+                                                    {
+                                                        "notiSendCount": 0,
+                                                        "threshDefName": "Th1",
+                                                        "timeDayNotiSe": 0,
+                                                        "level": 0,
+                                                        "annSendCount": 0,
+                                                        "customizedVal": 0,
+                                                        "thresholdValue": 109051904,
+                                                        "threshCrossed": 0,
+                                                        "overageFlag": 0,
+                                                        "sendNotif": 0,
+                                                        "actionResult": 0,
+                                                        "rarSend": 0,
+                                                        "timeOfAnnSent": 0
+                                                    },
+                                                    {
+                                                        "notiSendCount": 0,
+                                                        "threshDefName": "Th2",
+                                                        "timeDayNotiSe": 0,
+                                                        "level": 0,
+                                                        "annSendCount": 0,
+                                                        "customizedVal": 0,
+                                                        "thresholdValue": 136314880,
+                                                        "threshCrossed": 0,
+                                                        "overageFlag": 0,
+                                                        "sendNotif": 0,
+                                                        "actionResult": 0,
+                                                        "rarSend": 0,
+                                                        "timeOfAnnSent": 0
+                                                    },
+                                                    {
+                                                        "notiSendCount": 0,
+                                                        "threshDefName": "th3",
+                                                        "timeDayNotiSe": 0,
+                                                        "level": 0,
+                                                        "annSendCount": 0,
+                                                        "customizedVal": 0,
+                                                        "thresholdValue": 136314881,
+                                                        "threshCrossed": 0,
+                                                        "overageFlag": 0,
+                                                        "sendNotif": 0,
+                                                        "actionResult": 0,
+                                                        "rarSend": 0,
+                                                        "timeOfAnnSent": 0
+                                                    },
+                                                    {
+                                                        "notiSendCount": 0,
+                                                        "threshDefName": "th4",
+                                                        "timeDayNotiSe": 0,
+                                                        "level": 0,
+                                                        "annSendCount": 0,
+                                                        "customizedVal": 0,
+                                                        "thresholdValue": 137363456,
+                                                        "threshCrossed": 0,
+                                                        "overageFlag": 0,
+                                                        "sendNotif": 0,
+                                                        "actionResult": 0,
+                                                        "rarSend": 0,
+                                                        "timeOfAnnSent": 0
+                                                    }
+                                                ],
+                                                "interval": 1,
+                                                "thrPrfDefName": "thresholdProfileName0",
+                                                "provInterval": 0
+                                            }
+                                        ],
+                                        "thPfGrpDefName": "Th_Porsch_FUP_WSC_High.Threshold"
+                                    }
+                                ],
+                                "accountRef": "665706130||210005362920401",
+                                "subscriptionId": "d4f0015f-9d1f-40d6-aeaa-851bc0d9282a",
+                                "currentValue": 104589145088,
+                                "origInitialVal": 139586437120
+                            }
+                        ]
+                    }
+                ],
+                "feeMisdPrd": 0,
+                "subHistList": {
+                    "0": {},
+                    "1": {}
+                },
+                "renewalMode": 2,
+                "states": {
+                    "0": "ELC_FUPSubscription_30D_Active",
+                    "1": "PLC_FUPSubscription_30D_Active2"
+                },
+                "edigest": "GvDJhVEFk1f4qptSSAFWgLDPMC4=",
+                "startTime": 1724701265175,
+                "initialBarred": 0,
+                "id": "d4f0015f-9d1f-40d6-aeaa-851bc0d9282a||210005362920401",
+                "activationTime": 1724701265160,
+                "lifeCycleSNR": 1,
+                "validityTime": 1727293265000,
+                "schemaVersion": 0,
+                "bdlRef": "Porsche_FUP_WSC_SP",
+                "refBunCustom": 0,
+                "inputDate": 1724701265160,
+                "srvProvider": "fastlink",
+                "accRef": "665706130||210005362920401",
+                "renewalUpdated": 0,
+                "lifeCycleNames": {
+                    "0": "ELC_FUPSubscription_30D",
+                    "1": "PLC_FUPSubscription_30D"
+                },
+                "temElcInfo": {
+                    "timer": 1727293265000,
+                    "temId": "1-1-LC_1-SUBSCRIPTION_TYPE:d4f0015f-9d1f-40d6-aeaa-851bc0d9282a||210005362920401:ELC_FUPSubscription_30D_Active:Validity:ENTITY",
+                    "randTimer": 1727293265000
+                },
+                "subType": 0,
+                "endTime": 1727293260000
+            }
+        }
+    }
+}
