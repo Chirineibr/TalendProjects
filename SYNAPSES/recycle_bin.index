@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_8nBKcJqEEe6q9r1DVFEKUA" path="" type="JOBLET"/>
+  <deletedItems id="_fQssQIeiEe6S-KjyuqSocg" path="" type="JOBLET"/>
   <deletedItems id="_mrheYGR1Ee-0g8Ic44CH5A" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_4uOnUEnFEe-eWawm6Kj6rQ" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_5oPGsIVIEe-grbbzIwRRMQ" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_68_wQJWwEe6q9r1DVFEKUA" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_A58J4EKGEe-FqvG1Uesptg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_Ahw5cEAgEe-FqvG1Uesptg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_CRO7MLFCEe6Ji7w_CwXCRw" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_F6KRgENBEe-0i4FpuFVcZg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_FGdRgK71Ee62qJHFcqHYmA" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_FWlSkIhxEe6DSveVcNsyOg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_HArusD6hEe-mBfNJE0ssPg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_MMU3sD6iEe-mBfNJE0ssPg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_RkVgYIeWEe6S-KjyuqSocg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_RpOTMEAsEe-FqvG1Uesptg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_ZAjdcD95Ee-0Ipy04imchg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="__IRMcD9aEe-0Ipy04imchg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_aMwNUDRhEe-qqrOLTbA3Lw" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_bukKgEKoEe-CQOXK0e8rBA" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_cvBCoJgJEe6q9r1DVFEKUA" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_dBCZMDRpEe-qqrOLTbA3Lw" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_eSMwcEKeEe-CQOXK0e8rBA" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_eXyt0Em_Ee-eWawm6Kj6rQ" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_iECgYEpfEe-eWawm6Kj6rQ" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_jKGVwD94Ee-0Ipy04imchg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_oG7kMEggEe-0i4FpuFVcZg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_otC1cDncEe-mBfNJE0ssPg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_p9zq0D6fEe-mBfNJE0ssPg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_pPO5EI0gEe6wV429Avne4w" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_tp2d0D3mEe-mBfNJE0ssPg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_v6KkEEgtEe-0i4FpuFVcZg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_wS3scD7AEe-0Ipy04imchg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_wXDqMK-4Ee6xaa2JCgNuQw" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_z7Yq8EAjEe-FqvG1Uesptg" path="DataQuality" type="PROCESS"/>
+  <deletedItems id="_P16oQJqFEe6q9r1DVFEKUA" path="" type="ROUTE"/>
 </recyclebin:RecycleBin>

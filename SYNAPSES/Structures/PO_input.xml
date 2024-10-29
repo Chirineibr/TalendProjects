@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x1927bc1b990' V1='4' name='PO_input' incarnation='18'>
+<root t='150' id='1' V150='13' creationTimestamp='0x1927bc1b990' V1='4' name='PO_input' incarnation='21'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PO_input'>
     <structNode t='150' idref='1'/>
     <child t='167' id='3' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PO'>
@@ -84,7 +84,7 @@
     <child t='177' idref='28'/>
   </child>
   <child t='165' id='30' V1='4' name='Document Bindings'>
-    <child t='166' id='31' V166='5' docType='1' docReposPath='/LOCAL_PROJECT/Sample Data/PO_input/PO_input' V1='4' name='/PO_input'>
+    <child t='166' id='31' V166='5' docType='1' docReposPath='/SYNAPSES/Sample Data/PO_input/PO_input' V1='4' name='/PO_input'>
       <elemNode t='167' idref='2'/>
     </child>
   </child>
