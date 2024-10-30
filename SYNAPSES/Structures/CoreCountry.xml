@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x192dcbcf56f' V1='4' name='CoreCountry' incarnation='6'>
+<root t='150' id='1' V150='13' creationTimestamp='0x192dcbcf56f' V1='4' name='CoreCountry' incarnation='9'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CoreCountry'>
     <structNode t='150' idref='1'/>
     <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='version'>
@@ -123,5 +123,8 @@
     <child t='177' idref='41'/>
   </child>
   <child t='165' id='43' V1='4' name='Document Bindings'>
+    <child t='166' id='44' V166='5' docType='1' docReposPath='/SYNAPSES/Sample Data/CoreCountry/dataprep_CORE_COUNTRY Preparation_2024-10-30_09-09-22-790' V1='4' name='/CoreCountry'>
+      <elemNode t='167' idref='2'/>
+    </child>
   </child>
 </root>
