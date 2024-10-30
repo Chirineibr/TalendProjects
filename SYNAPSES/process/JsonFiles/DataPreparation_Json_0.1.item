@@ -121,7 +121,7 @@
     <elementParameter field="HMAP_PATH" name="HMAP_PATH" value="&quot;Jobs/DataPreparation_Json/tHMap_1&quot;"/>
     <elementParameter field="RADIO" name="SOURCE_AS_MAP" value="false" show="false"/>
     <elementParameter field="RADIO" name="SOURCE_AS_STRING" value="true"/>
-    <elementParameter field="RADIO" name="AS_MAP" value="true"/>
+    <elementParameter field="RADIO" name="AS_MAP" value="false" show="false"/>
     <elementParameter field="RADIO" name="AS_STRING" value="false" show="false"/>
     <elementParameter field="RADIO" name="AS_BYTEARRAY" value="false" show="false"/>
     <elementParameter field="RADIO" name="AS_INPUTSTREAM" value="false" show="false"/>
@@ -136,7 +136,7 @@
     <elementParameter field="TEXT" name="SHOW_INPUT_STRING" value="true" show="false"/>
     <elementParameter field="TEXT" name="SHOW_INPUT_MAP" value="false" show="false"/>
     <elementParameter field="TEXT" name="SHOW_OUTPUT_STRING" value="false" show="false"/>
-    <elementParameter field="TEXT" name="SHOW_OUTPUT_MAP" value="true" show="false"/>
+    <elementParameter field="TEXT" name="SHOW_OUTPUT_MAP" value="false" show="false"/>
     <elementParameter field="TEXT" name="SHOW_OUTPUT_DOCUMENT" value="false" show="false"/>
     <elementParameter field="TEXT" name="SHOW_OUTPUT_OBJECT" value="false" show="false"/>
     <elementParameter field="RADIO" name="IS_NEW" value="false" show="false"/>
@@ -327,16 +327,16 @@
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
     <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
     <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
     <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
       <elementValue elementRef="LENGTH" value="10"/>
@@ -388,7 +388,11 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="out" lineStyle="0" metaname="out" offsetLabelX="0" offsetLabelY="0" source="tHMap_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="out" lineStyle="0" metaname="out" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tHMap_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out" lineStyle="0" metaname="out" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tHMap_1" target="tUniqRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out" show="false"/>
   </connection>
