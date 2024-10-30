@@ -93,6 +93,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_IEiEcJadEe-lJJ9EbDyCtw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_YkRQgJahEe-lJJ9EbDyCtw",
+    "version" : "Latest",
+    "type" : "mapper"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_MsUzkIxYEe-fxPg2e5Q_GA",
     "version" : "0.1",
     "type" : "job"
