@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/CoreCountry.xml' outStruct='Structures/Jobs/DataPreparation_Json/tHMap_1/out.xml' inputRep='177' outputRep='178' nextMap='' inputStructUserName='CoreCountry' outputStructUserName='out' V1='4' name='tHMap_1' incarnation='285'>
-  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CoreCountry'>
+<root t='190' id='1' V190='11' inStruct='Structures/CoreCountry.xml' outStruct='Structures/Jobs/DataPreparation_Json/tHMap_1/out.xml' inputRep='177' outputRep='178' nextMap='' inputStructUserName='CoreCountry' outputStructUserName='out' V1='4' name='tHMap_1' incarnation='301'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CoreCountry'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='3' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='version'>
       <mapNode t='190' idref='1'/>
@@ -117,7 +117,7 @@
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='41' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
+  <outputMapElem t='200' id='41' V200='8' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/CoreCountry,{Filter},{Sort Keys},{Contexts})</loop>
   </outputMapElem>
