@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x192dd80a5a4' V1='4' name='out' incarnation='21'>
+<root t='150' id='1' V150='13' creationTimestamp='0x192dd80a5a4' V1='4' name='out' incarnation='24'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <structNode t='150' idref='1'/>
-    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row' checksumValid='true' checksum='DVjK8KRBSAFjwq3wXKpLxv9S+Xw='>
+    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row' checksumValid='true' checksum='NF0cCXbY0hl4W5up9x3f1kaQkK4='>
       <structNode t='150' idref='1'/>
       <child t='167' id='4' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='name'>
         <structNode t='150' idref='1'/>
       </child>
-      <child t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ColumnID'>
+      <child t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ColumnID'>
         <structNode t='150' idref='1'/>
       </child>
       <child t='167' id='6' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CreateNewColumn'>
@@ -51,5 +51,8 @@
     <child t='178' idref='17'/>
   </child>
   <child t='165' id='19' V1='4' name='Document Bindings'>
+    <child t='166' id='20' V166='5' docType='1' V1='4' name='/root'>
+      <elemNode t='167' idref='2'/>
+    </child>
   </child>
 </root>
