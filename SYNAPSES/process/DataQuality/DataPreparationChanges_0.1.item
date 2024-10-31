@@ -238,13 +238,13 @@
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="column_id"/>
-      <elementValue elementRef="QUERY" value="&quot;column_id&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;.column_id&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="create_new_column"/>
-      <elementValue elementRef="QUERY" value="&quot;create_new_column&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;.create_new_column&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="original_value"/>
-      <elementValue elementRef="QUERY" value="&quot;original_value&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;.original_value&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="new_value"/>
-      <elementValue elementRef="QUERY" value="&quot;new_value&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;.new_value&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
