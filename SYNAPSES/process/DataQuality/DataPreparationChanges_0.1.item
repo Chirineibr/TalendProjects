@@ -307,7 +307,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1" show="false"/>
     <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
     <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#xA;      for( int i=0;i&lt;=100 ;i++) {&#xA;      &#xA; "/>
-    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#xA;// a piece of code executed in the row&#xA;// loop&#xA;String [] create_new_column;&#xA;String [] original_value;&#xA;String [] new_value;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;row5.column_id=(row4.column_id!=null)? row4.column_id:&quot;EMPTY&quot;;&#xA;create_new_column=row4.create_new_column.split(&quot;,&quot;,-1);&#xA;if (create_new_column != null &amp;&amp; create_new_column.length >i)&#xA;row5.create_new_column=create_new_column[i];&#xA;&#xA;else&#xA;&#xA;break;&#xA;&#xA;&#xA;row5.column_id=(row4.column_id!=null)? row4.column_id:&quot;EMPTY&quot;;&#xA;new_value=row4.new_value.split(&quot;,&quot;,-1);&#xA;if (new_value != null &amp;&amp; new_value.length >i)&#xA;row5.new_value=new_value[i];&#xA;&#xA;else&#xA;&#xA;break;&#xA;&#xA;row5.column_id=(row4.column_id!=null)? row4.column_id:&quot;EMPTY&quot;;&#xA;original_value=row4.original_value.split(&quot;,&quot;,-1);&#xA;if (original_value != null &amp;&amp; original_value.length >i)&#xA;row5.original_value=original_value[i];&#xA;&#xA;else&#xA;&#xA;break;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#xA;// a piece of code executed in the row&#xA;// loop&#xA;String [] create_new_column;&#xA;String [] original_value;&#xA;String [] new_value;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;row5.column_id=(row4.column_id!=null)? row4.column_id:&quot;EMPTY&quot;;&#xA;create_new_column=row4.create_new_column.split(&quot;,&quot;,-1);&#xA;if (create_new_column != null &amp;&amp; create_new_column.length >i)&#xA;row5.create_new_column=create_new_column[i];&#xA;&#xA;else&#xA;&#xA;&#xA;&#xA;&#xA;row5.column_id=(row4.column_id!=null)? row4.column_id:&quot;EMPTY&quot;;&#xA;new_value=row4.new_value.split(&quot;,&quot;,-1);&#xA;if (new_value != null &amp;&amp; new_value.length >i)&#xA;row5.new_value=new_value[i];&#xA;&#xA;else&#xA;&#xA;break;&#xA;&#xA;row5.column_id=(row4.column_id!=null)? row4.column_id:&quot;EMPTY&quot;;&#xA;original_value=row4.original_value.split(&quot;,&quot;,-1);&#xA;if (original_value != null &amp;&amp; original_value.length >i)&#xA;row5.original_value=original_value[i];&#xA;&#xA;else&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;"/>
     <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#xA;     } "/>
     <elementParameter field="CHECK" name="Version_V2_0" value="false" show="false"/>
     <elementParameter field="CHECK" name="Version_V3_2" value="false" show="false"/>
@@ -360,7 +360,6 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -445,7 +444,6 @@
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
   </connection>
   <subjob>
@@ -455,11 +453,6 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputRaw_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
