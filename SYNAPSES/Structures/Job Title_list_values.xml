@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x192e16de119' V1='4' name='Job Title_list_values' incarnation='6'>
+<root t='150' id='1' V150='13' creationTimestamp='0x192e16de119' V1='4' name='Job Title_list_values' incarnation='9'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Job_Title_list_values'>
     <structNode t='150' idref='1'/>
     <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='exportFormat'>
@@ -69,5 +69,8 @@
     <child t='177' idref='23'/>
   </child>
   <child t='165' id='25' V1='4' name='Document Bindings'>
+    <child t='166' id='26' V166='5' docType='1' docReposPath='/SYNAPSES/Sample Data/Job Title_list_values/Job Title_2024-10-29_talend_list_values' V1='4' name='/Job_Title_list_values'>
+      <elemNode t='167' idref='2'/>
+    </child>
   </child>
 </root>
