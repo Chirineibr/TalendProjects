@@ -235,6 +235,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_ilwE0JdXEe-lJJ9EbDyCtw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_eOZ0oJdYEe-lJJ9EbDyCtw",
+    "version" : "Latest",
+    "type" : "mapper"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_rPtAIJBOEe6wV429Avne4w",
     "version" : "0.1",
     "type" : "job"
