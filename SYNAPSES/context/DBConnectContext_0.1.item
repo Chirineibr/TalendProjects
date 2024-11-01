@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_cqg6wJguEe-lJJ9EbDyCtw" confirmationNeeded="false" hide="false" name="Development">
+    <contextParameter xmi:id="_cqg6wZguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Port" prompt="Synapses_MySql_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_cqg6wpguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_AdditionalParams" prompt="Synapses_MySql_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_cqg6w5guEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Server" prompt="Synapses_MySql_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_cqg6xJguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Login" prompt="Synapses_MySql_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root"/>
+    <contextParameter xmi:id="_cqg6xZguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Password" prompt="Synapses_MySql_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:q6jJqmeD1M8jt4T78WC1YMJmWP5dtnBDXNWo25HK30uBQR/5PWc="/>
+    <contextParameter xmi:id="_cqg6xpguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Database" prompt="Synapses_MySql_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="synapses"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_cqg6x5guEe-lJJ9EbDyCtw" confirmationNeeded="false" hide="false" name="Production">
+    <contextParameter xmi:id="_cqg6yJguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Port" prompt="Synapses_MySql_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_cqg6yZguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_AdditionalParams" prompt="Synapses_MySql_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_cqg6ypguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Server" prompt="Synapses_MySql_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_cqg6y5guEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Login" prompt="Synapses_MySql_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root"/>
+    <contextParameter xmi:id="_cqg6zJguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Password" prompt="Synapses_MySql_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:rjq3Dfal+Yykezk+zX0HvgR3C/Ru+HAbH9xasXd5wAz2jM8/bsA="/>
+    <contextParameter xmi:id="_cqg6zZguEe-lJJ9EbDyCtw" comment="" name="Synapses_MySql_Database" prompt="Synapses_MySql_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="synapses"/>
+  </talendfile:ContextType>
+</xmi:XMI>
