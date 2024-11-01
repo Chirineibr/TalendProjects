@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="local Path" name="FilePath" prompt="FilePath?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/User_/Desktop/Talend Documents/TalendFiles/ContextVariable/" internalId="_AJixcJgqEe-lJJ9EbDyCtw"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Development" jobType="Standard">
+  <context confirmationNeeded="false" hide="false" name="Development">
+    <contextParameter comment="local Path" name="FilePath" prompt="FilePath?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/User_/Desktop/Talend Documents/TalendFiles/ContextVariable/Dev/" internalId="_AJixcJgqEe-lJJ9EbDyCtw"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Production">
+    <contextParameter comment="local Path" name="FilePath" prompt="FilePath?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/User_/Desktop/Talend Documents/TalendFiles/ContextVariable/Prod/" internalId="_AJixcJgqEe-lJJ9EbDyCtw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
