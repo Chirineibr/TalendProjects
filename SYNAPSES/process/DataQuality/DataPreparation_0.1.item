@@ -232,7 +232,7 @@
       <elementValue elementRef="INPUT_COLUMN" value="idClient"/>
       <elementValue elementRef="FUNCTION" value="Math.abs($source) $operator $target"/>
       <elementValue elementRef="OPERATOR" value="=="/>
-      <elementValue elementRef="RVALUE" value="2"/>
+      <elementValue elementRef="RVALUE" value="3"/>
     </elementParameter>
   </connection>
   <subjob>
