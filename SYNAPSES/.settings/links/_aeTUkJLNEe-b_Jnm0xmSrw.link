@@ -1,0 +1,70 @@
+{
+  "itemId" : "_aeTUkJLNEe-b_Jnm0xmSrw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_cqLjkJguEe-lJJ9EbDyCtw",
+    "parameterList" : [ {
+      "id" : "_cqg6xpguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Database"
+    }, {
+      "id" : "_cqg6xZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Password"
+    }, {
+      "id" : "_cqg6xJguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Login"
+    }, {
+      "id" : "_cqg6w5guEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Server"
+    }, {
+      "id" : "_cqg6wpguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_AdditionalParams"
+    }, {
+      "id" : "_cqg6wZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Port"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_cqLjkJguEe-lJJ9EbDyCtw",
+    "parameterList" : [ {
+      "id" : "_cqg6yJguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Port"
+    }, {
+      "id" : "_cqg6yZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_AdditionalParams"
+    }, {
+      "id" : "_cqg6ypguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Server"
+    }, {
+      "id" : "_cqg6y5guEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Login"
+    }, {
+      "id" : "_cqg6zJguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Password"
+    }, {
+      "id" : "_cqg6zZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Database"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_cqLjkJguEe-lJJ9EbDyCtw",
+    "parameterList" : [ {
+      "id" : "_cqg6wZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Port"
+    }, {
+      "id" : "_cqg6wpguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_AdditionalParams"
+    }, {
+      "id" : "_cqg6w5guEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Server"
+    }, {
+      "id" : "_cqg6xJguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Login"
+    }, {
+      "id" : "_cqg6xZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Password"
+    }, {
+      "id" : "_cqg6xpguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Database"
+    } ]
+  } ]
+}
