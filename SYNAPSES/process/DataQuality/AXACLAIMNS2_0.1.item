@@ -367,12 +367,18 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="200">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.ASSESSMENT_ID = input_row.ASSESSMENT_ID;&#xD;&#xA;output_row.ASSESSMENT_HISTORY_ID = input_row.ASSESSMENT_HISTORY_ID;&#xD;&#xA;output_row.Month = input_row.Month;&#xD;&#xA;output_row.Year = input_row.Year;&#xD;&#xA;output_row.CA_AMT = input_row.CA_AMT;&#xD;&#xA;output_row.assessmentHistoryId = input_row.assessmentHistoryId;&#xD;&#xA;output_row.monthlyValues = input_row.monthlyValues;&#xD;&#xA;"/>
+  <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="760" posY="200">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1" show="false"/>
+    <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_START" value="java.util.Map&lt;String, java.util.Map&lt;String, java.util.List&lt;String>>> idYearlyValues = new java.util.HashMap&lt;>();&#xA;java.util.Map&lt;String, java.util.Map&lt;String, java.util.List&lt;String>>> assessmentHistoryMap = new java.util.HashMap&lt;>();&#xA;java.util.Set&lt;String> uniqueIDs = new java.util.HashSet&lt;>();&#xA;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="String assessmentId = out2.ASSESSMENT_ID; // Unique ID&#xA;String date = out2.Month; // Month as a string&#xA;String value = out2.CA_AMT; // The value to be stored&#xA;String year = out2.Year; // Year as a string&#xA;String assessmentHistoryId = out2.ASSESSMENT_HISTORY_ID; // Get the ASSESSMENT_HISTORY_ID&#xA;&#xA;// Add the ID to the set of unique IDs&#xA;uniqueIDs.add(assessmentId);&#xA;&#xA;// Initialize the map for the ID if it doesn't exist&#xA;idYearlyValues.putIfAbsent(assessmentId, new java.util.HashMap&lt;>());&#xA;assessmentHistoryMap.putIfAbsent(assessmentId, new java.util.HashMap&lt;>()); // Initialize history map for the ID&#xA;&#xA;// Initialize the list for the year if it doesn't exist&#xA;idYearlyValues.get(assessmentId).putIfAbsent(year, new java.util.ArrayList&lt;>(java.util.Collections.nCopies(12, &quot;&quot;)));&#xA;assessmentHistoryMap.get(assessmentId).putIfAbsent(year, new java.util.ArrayList&lt;>(java.util.Collections.nCopies(12, &quot;&quot;))); // Initialize history for the year&#xA;&#xA;// Get the month from the Date&#xA;int month = Integer.parseInt(date) - 1; // Convert month to 0-11 index&#xA;&#xA;// Get the list of monthly values for this ID and year&#xA;java.util.List&lt;String> monthlyValues = idYearlyValues.get(assessmentId).get(year);&#xA;java.util.List&lt;String> historyValues = assessmentHistoryMap.get(assessmentId).get(year); // Get history values&#xA;&#xA;// Set the current month value&#xA;monthlyValues.set(month, value);&#xA;&#xA;// Store ASSESSMENT_HISTORY_ID for the current month&#xA;if (assessmentHistoryId == null || assessmentHistoryId.isEmpty()) {&#xA;    // If the current month history ID is empty, use the previous month's ID&#xA;    if (month > 0) { // Ensure there is a previous month&#xA;        String previousId = historyValues.get(month - 1);&#xA;        if (previousId != null &amp;&amp; !previousId.isEmpty()) {&#xA;            // Append the current month number (1-based index)&#xA;            assessmentHistoryId = previousId + &quot;-&quot; + (month + 1);&#xA;        } else {&#xA;            // If the previous month ID is also empty, set it to a default value&#xA;            assessmentHistoryId = &quot;DefaultID-&quot; + (month + 1); // Adjust as needed&#xA;        }&#xA;    } else {&#xA;        // For the first month, if there's no previous month, set a default ID&#xA;        assessmentHistoryId = &quot;DefaultID-1&quot;; // Or handle this case as needed&#xA;    }&#xA;}&#xA;historyValues.set(month, assessmentHistoryId); // Store the ASSESSMENT_HISTORY_ID for the current month&#xA;&#xA;// Filling in null months with last available month's value for history IDs&#xA;String lastHistoryId = null;&#xA;for (int i = 0; i &lt; historyValues.size(); i++) {&#xA;    if (!historyValues.get(i).isEmpty()) {&#xA;        lastHistoryId = historyValues.get(i); // Update last known history ID&#xA;    } else if (lastHistoryId != null) {&#xA;        // Fill with last known history ID plus current month ID&#xA;        historyValues.set(i, lastHistoryId + &quot;-&quot; + (i + 1)); // i + 1 to get the 1-based month index&#xA;    }&#xA;}&#xA;&#xA;// Filling in null months with last available month's value for values&#xA;String lastValue = null;&#xA;for (int i = 0; i &lt; monthlyValues.size(); i++) {&#xA;    if (!monthlyValues.get(i).isEmpty()) {&#xA;        lastValue = monthlyValues.get(i); // Update last known value&#xA;    } else if (lastValue != null) {&#xA;        monthlyValues.set(i, lastValue); // Fill with last known value&#xA;    }&#xA;}&#xA;      &#xA;      &#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_END" value="&#xA;&#xA;&#xA;for (String id : uniqueIDs) {&#xA;  System.out.println(id);&#xA;   row5.id=id;&#xA;     // Print each unique ID&#xA;}&#xA;/*&#xA;System.out.println(&quot;ID\tHistory ID\tYear\tMonth\tValue&quot;); // Table Header&#xA;System.out.println(&quot;-------------------------------------------------&quot;); // Separator&#xA;&#xA;for (java.util.Map.Entry&lt;String, java.util.Map&lt;String, java.util.List&lt;String>>> entry : idYearlyValues.entrySet()) {&#xA;    String id = entry.getKey();&#xA;    java.util.Map&lt;String, List&lt;String>> yearValues = entry.getValue();&#xA;&#xA;    for (java.util.Map.Entry&lt;String, java.util.List&lt;String>> yearEntry : yearValues.entrySet()) {&#xA;        String yearOutput = yearEntry.getKey();&#xA;        java.util.List&lt;String> values = yearEntry.getValue();&#xA;        java.util.List&lt;String> historyValues = assessmentHistoryMap.get(id).get(yearOutput); // Get corresponding history IDs&#xA;        &#xA;        for (int month = 0; month &lt; values.size(); month++) {&#xA;            // Get the month value and history ID for the current month&#xA;            String monthValue = values.get(month);&#xA;            String monthHistoryId = historyValues.get(month);&#xA;            //row5.id=&quot;1&quot;; &#xA;            // Print the ID, History ID, Year, Month, and Value in the specified order&#xA;            System.out.printf(&quot;%s\t%s\t%s\t%d\t%s%n&quot;, id, monthHistoryId, yearOutput, month + 1, monthValue);&#xA;         &#xA;            &#xA;        }&#xA;    }&#xA;}&#xA;*/&#xA;"/>
+    <elementParameter field="CHECK" name="Version_V2_0" value="false" show="false"/>
+    <elementParameter field="CHECK" name="Version_V3_2" value="false" show="false"/>
+    <elementParameter field="CHECK" name="Version_V4.0" value="true" show="false"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJavaRow_1">
+    <metadata connector="FLOW" name="tJavaFlex_1">
       <column comment="" key="false" length="-1" name="ASSESSMENT_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="ASSESSMENT_HISTORY_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Month" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -382,39 +388,12 @@
       <column comment="" key="false" length="-1" name="monthlyValues" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="200">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
-    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
-    <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ASSESSMENT_ID"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ASSESSMENT_HISTORY_ID"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Month"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Year"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CA_AMT"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="assessmentHistoryId"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="monthlyValues"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="200">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.ASSESSMENT_ID = input_row.ASSESSMENT_ID;&#xD;&#xA;output_row.ASSESSMENT_HISTORY_ID = input_row.ASSESSMENT_HISTORY_ID;&#xD;&#xA;output_row.Month = input_row.Month;&#xD;&#xA;output_row.Year = input_row.Year;&#xD;&#xA;output_row.CA_AMT = input_row.CA_AMT;&#xD;&#xA;output_row.assessmentHistoryId = input_row.assessmentHistoryId;&#xD;&#xA;output_row.monthlyValues = input_row.monthlyValues;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tLogRow_2">
+    <metadata connector="FLOW" name="tJavaRow_1">
       <column comment="" key="false" length="-1" name="ASSESSMENT_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="ASSESSMENT_HISTORY_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Month" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -520,11 +499,11 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tJavaRow_1">
+  <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tJavaFlex_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tLogRow_2">
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tJavaFlex_1" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_1" target="tJavaRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
   </connection>
