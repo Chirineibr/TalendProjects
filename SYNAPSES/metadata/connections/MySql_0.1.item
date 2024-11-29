@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_ypTPAJqCEe6q9r1DVFEKUA" name="MySql" supplierDependency="_udhQyqVnEe6h1vhPrM9qqA" id="_uFOm4JqCEe6q9r1DVFEKUA" label="MySql" dataPackage="__rWtcKSxEe66t_stUYgOYA" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/test?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="enc:system.encryption.key.v1:X1WM+LYS9NCycPp/5SvsUVn7ePseHLhBBaaVcpVEPozw6T3Snhk=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="test" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+  <TalendMetadata:DatabaseConnection xmi:id="_ypTPAJqCEe6q9r1DVFEKUA" name="MySql" supplierDependency="_udhQyqVnEe6h1vhPrM9qqA" id="_uFOm4JqCEe6q9r1DVFEKUA" label="MySql" dataPackage="__rWtcKSxEe66t_stUYgOYA" ContextMode="true" ContextId="_lvw5IK5VEe-4ucXeWT_Qxw" contextName="Default" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/test?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="context.MySql_Port" Username="context.MySql_Login" Password="context.MySql_Password" ServerName="context.MySql_Server" DatasourceName="" FileFieldName="" SID="context.MySql_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.MySql_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_ypTPAZqCEe6q9r1DVFEKUA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_yqN1AJqCEe6q9r1DVFEKUA" tag="package filter" value=""/>
     <taggedValue xmi:id="_yqN1AZqCEe6q9r1DVFEKUA" tag="Status" value=""/>
@@ -12,7 +12,7 @@
     <taggedValue xmi:id="_yqWX4JqCEe6q9r1DVFEKUA" tag="DB ProductName" value="MySQL"/>
     <taggedValue xmi:id="_yqWX4ZqCEe6q9r1DVFEKUA" tag="DB ProductVersion" value="8.0.35"/>
     <taggedValue xmi:id="_yqWX4pqCEe6q9r1DVFEKUA" tag="DB IdentifierQuoteString" value="`"/>
-    <parameters xmi:id="_ypTPApqCEe6q9r1DVFEKUA" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_ypTPApqCEe6q9r1DVFEKUA" key="CONN_PARA_KEY_USERNAME" value="context.MySql_Login"/>
     <parameters xmi:id="_9ZO50KSxEe66t_stUYgOYA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="__rWtcKSxEe66t_stUYgOYA" name="test" dataManager="_ypTPAJqCEe6q9r1DVFEKUA">
