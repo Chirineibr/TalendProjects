@@ -221,7 +221,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="MapResult">
-        <mapperTableEntries name="Name" expression="customers.First +&quot;&quot;+customers.Last " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Name" expression="customers.First +&quot; &quot;+customers.Last " type="id_String" nullable="true"/>
         <mapperTableEntries name="Number" expression="customers.Number " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Street" expression="customers.Street " type="id_String" nullable="true"/>
         <mapperTableEntries name="City" expression="customers.City " type="id_String" nullable="true"/>
