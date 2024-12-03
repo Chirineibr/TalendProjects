@@ -37,6 +37,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_E7_48LFGEe-4ucXeWT_Qxw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw - StateCodesSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_F32j8GrLEe-XwoMeL-lUgA",
     "version" : "0.1",
     "type" : "job"
