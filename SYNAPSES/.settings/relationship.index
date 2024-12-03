@@ -61,10 +61,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_segmwIsxEeiWJ5WzSXwHBQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
     "version" : "Latest",
     "type" : "schema"
