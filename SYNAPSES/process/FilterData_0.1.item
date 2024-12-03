@@ -329,7 +329,7 @@
         <mapperTableEntries name="Number" expression="customers.Number" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Street" expression="customers.Street" type="id_String" nullable="true"/>
         <mapperTableEntries name="City" expression="customers.City" type="id_String" nullable="true"/>
-        <mapperTableEntries name="State" expression="customers.State" type="id_String" nullable="true"/>
+        <mapperTableEntries name="State" expression="StringHandling.UPCASE(customers.State) " type="id_String" nullable="true"/>
         <mapperTableEntries name="StateName" expression="States.StateName" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="customers" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
