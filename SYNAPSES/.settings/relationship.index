@@ -56,6 +56,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_ENEOALFUEe-F39JS5UC_bw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_F32j8GrLEe-XwoMeL-lUgA",
     "version" : "0.1",
     "type" : "job"
