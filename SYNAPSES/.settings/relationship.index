@@ -60,11 +60,7 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_F32j8GrLEe-XwoMeL-lUgA",
