@@ -190,7 +190,7 @@
       <elementValue elementRef="INPUT_COLUMN" value="First"/>
       <elementValue elementRef="IGNORE_NULL" value="false"/>
       <elementValue elementRef="OUTPUT_COLUMN" value="NbrofCity"/>
-      <elementValue elementRef="FUNCTION" value="std_dev"/>
+      <elementValue elementRef="FUNCTION" value="distinct"/>
       <elementValue elementRef="INPUT_COLUMN" value="City"/>
       <elementValue elementRef="IGNORE_NULL" value="false"/>
     </elementParameter>
