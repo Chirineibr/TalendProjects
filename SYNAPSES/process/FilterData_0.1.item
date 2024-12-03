@@ -341,7 +341,7 @@
         <mapperTableEntries name="State" type="id_String" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="States" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="StateCode" expression="customers.State " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="StateCode" expression="StringHandling.UPCASE(customers.State) " type="id_String" nullable="true" operator="="/>
         <mapperTableEntries name="StateName" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
