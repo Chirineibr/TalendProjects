@@ -4,7 +4,7 @@
     <migrationTask xmi:id="_i9k6EJB0Ee-An_-H4Z3hRQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_i8CB8pB0Ee-An_-H4Z3hRQ" login="c.ibrahim@napsescons.com_synapsesconsultingsal_nfr" firstName="Chirine" lastName="Ibrahim" type="DQ"/>
-  <TalendProperties:User xmi:id="_UR7ZEJKlEe-z_bPsql4W1w" login="jaboujaoude@napsescons.com_synapsesconsultingsal_nfr" firstName="Jean" lastName="Jaoude" type="DQ"/>
+  <TalendProperties:User xmi:id="_UR7ZEJKlEe-z_bPsql4W1w" login="jaboujaoude@napsescons.com_synapsesconsultingsal_nfr" firstName="Jean" lastName="Abou Jaoude" type="DQ"/>
   <TalendProperties:User xmi:id="_UR7ZEZKlEe-z_bPsql4W1w" login="tawfik.mohammed@napsescons.com_synapsesconsultingsal_nfr" firstName="tawfik" lastName="mohammed" type="DQ"/>
   <TalendProperties:User xmi:id="_UR7ZEpKlEe-z_bPsql4W1w" login="j.mansour@napsescons.com_synapsesconsultingsal_nfr" firstName="joseph" lastName="mansour" type="DQ"/>
 </xmi:XMI>
