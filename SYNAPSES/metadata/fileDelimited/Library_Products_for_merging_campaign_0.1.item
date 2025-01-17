@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
   <TalendMetadata:DelimitedFileConnection xmi:id="_zncAodQSEe-po_0gK0NJiQ" name="Library_Products_for_merging_campaign" id="_zncAoNQSEe-po_0gK0NJiQ" dataPackage="_zncAotQSEe-po_0gK0NJiQ _WLVoYNSpEe-hKKsXg6Ewow" Server="Localhost 127.0.0.1" FilePath="C:/Users/User_/Desktop/Talend Documents/TDM-Essentials/TDM-Essentials/Library_data_Sources.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_zncAotQSEe-po_0gK0NJiQ" name="default" dataManager="_zncAodQSEe-po_0gK0NJiQ">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zncAo9QSEe-po_0gK0NJiQ" id="_lOY3cNQSEe-po_0gK0NJiQ" label="metadata">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zncAo9QSEe-po_0gK0NJiQ" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_lOY3cNQSEe-po_0gK0NJiQ" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zncApNQSEe-po_0gK0NJiQ" label="Code" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zncApdQSEe-po_0gK0NJiQ" label="Name" length="79" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zncAptQSEe-po_0gK0NJiQ" label="Author" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
