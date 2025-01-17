@@ -318,17 +318,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_XdkPoJmUEe6q9r1DVFEKUA",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_Mm0-0NNBEe-po_0gK0NJiQ",
-    "version" : "Latest",
-    "type" : "property"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_YVKS8LEiEe6Ji7w_CwXCRw",
     "version" : "0.1",
     "type" : "job"
