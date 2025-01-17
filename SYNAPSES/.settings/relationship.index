@@ -31,13 +31,17 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_CZv3wNSqEe-hKKsXg6Ewow",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_Mm0-0NNBEe-po_0gK0NJiQ",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_zncAoNQSEe-po_0gK0NJiQ",
+    "id" : "_CZv3wNSqEe-hKKsXg6Ewow - metadata",
     "version" : "Latest",
-    "type" : "property"
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
