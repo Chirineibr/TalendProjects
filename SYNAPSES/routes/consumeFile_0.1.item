@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_GOZzENf1Ee-hKKsXg6Ewow" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_GOZzEdf1Ee-hKKsXg6Ewow" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_GOZzEtf1Ee-hKKsXg6Ewow">
+    <elementParameter xmi:id="_GOZzE9f1Ee-hKKsXg6Ewow" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_GOZzFNf1Ee-hKKsXg6Ewow" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzFdf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzFtf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzF9f1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzGNf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzGdf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzGtf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzG9f1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzHNf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzHdf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzHtf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzH9f1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzINf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzIdf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_GOZzItf1Ee-hKKsXg6Ewow" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+</talendfile:ProcessType>
