@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="Synapses_MySql_Database" prompt="Synapses_MySql_Database?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="synapses" internalId="_hY_RAOeLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_Password" prompt="Synapses_MySql_Password?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_Password" value="enc:system.encryption.key.v1:Vt0wv1Sn+p8zCqI9DknAUBiIo7a10be8XT4owMotK6UYP/5639U=" internalId="_hY_4EOeLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_Login" prompt="Synapses_MySql_Login?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="root" internalId="_hY_4EeeLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_Server" prompt="Synapses_MySql_Server?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="localhost" internalId="_hY_4EueLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_AdditionalParams" prompt="Synapses_MySql_AdditionalParams?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_hY_4E-eLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_Port" prompt="Synapses_MySql_Port?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="3306" internalId="_hY_4FOeLEe-QbN_F0IT36A"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Development">
+    <contextParameter comment="" name="Synapses_MySql_Port" prompt="Synapses_MySql_Port?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="3306" internalId="_hY_4FeeLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_AdditionalParams" prompt="Synapses_MySql_AdditionalParams?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_hY_4FueLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_Server" prompt="Synapses_MySql_Server?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="localhost" internalId="_hY_4F-eLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_Login" prompt="Synapses_MySql_Login?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="root" internalId="_hY_4GOeLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_Password" prompt="Synapses_MySql_Password?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_Password" value="enc:system.encryption.key.v1:nT3yXnIabqd9d4lMEtWyniQPCjZbCAlHq2SVe6txJ63TS3k7zZI=" internalId="_hY_4GeeLEe-QbN_F0IT36A"/>
+    <contextParameter comment="" name="Synapses_MySql_Database" prompt="Synapses_MySql_Database?" promptNeeded="false" repositoryContextId="_cqLjkJguEe-lJJ9EbDyCtw" type="id_String" value="synapses" internalId="_hY_4GueLEe-QbN_F0IT36A"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="360" show="false"/>
@@ -604,26 +619,17 @@
   </node>
   <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="360">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlOutput" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/MySQL" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tMysqlOutput" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_V6dhcJEWEe-An_-H4Z3hRQ" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;synapses&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nQ+a1b5KRo2lp7Kb/l9xTAMT21xIbvvhw5XOLE4dyk3FTzoV90GUCg=="/>
+    <elementParameter field="TEXT" name="HOST" value="context.Synapses_MySql_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Synapses_MySql_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Synapses_MySql_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.Synapses_MySql_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rUJH002GkbK3ooBPPOL94qVFW5Zrdd9nQwwb4nldnvtbP/DHotc05mlb2SoAFINK4SkSf+m2+JwT7zk="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;subscription_dump&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -634,7 +640,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Synapses_MySql_AdditionalParams"/>
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
@@ -749,26 +755,17 @@
   </node>
   <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlOutput" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/MySQL" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tMysqlOutput" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_V6dhcJEWEe-An_-H4Z3hRQ" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;synapses&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8ofXSs8SUiIb+XMS3YOhSf6OSi+Iueo87aqIcsG1RZwCQKBqFsjdTw=="/>
+    <elementParameter field="TEXT" name="HOST" value="context.Synapses_MySql_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Synapses_MySql_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Synapses_MySql_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.Synapses_MySql_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:O2pf4KZbjsuOuXDCS3UT3LS0N4AHpAPOxmztRZ/0uXaSv5ipOd/eqjFIfSrUoVUQFCgJdTXmFynaRG8="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;user_dump&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE_OR_INSERT"/>
@@ -779,7 +776,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Synapses_MySql_AdditionalParams"/>
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true" show="false"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
