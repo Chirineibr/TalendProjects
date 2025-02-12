@@ -1,0 +1,48 @@
+{
+  "itemId" : "_4uxOINTTEe-hKKsXg6Ewow",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_cqLjkJguEe-lJJ9EbDyCtw",
+    "parameterList" : [ {
+      "id" : "_cqg6wZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Port"
+    }, {
+      "id" : "_cqg6wpguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_AdditionalParams"
+    }, {
+      "id" : "_cqg6w5guEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Server"
+    }, {
+      "id" : "_cqg6xJguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Login"
+    }, {
+      "id" : "_cqg6xZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Password"
+    }, {
+      "id" : "_cqg6xpguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Database"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_cqLjkJguEe-lJJ9EbDyCtw",
+    "parameterList" : [ {
+      "id" : "_cqg6wZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Port"
+    }, {
+      "id" : "_cqg6wpguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_AdditionalParams"
+    }, {
+      "id" : "_cqg6w5guEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Server"
+    }, {
+      "id" : "_cqg6xJguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Login"
+    }, {
+      "id" : "_cqg6xZguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Password"
+    }, {
+      "id" : "_cqg6xpguEe-lJJ9EbDyCtw",
+      "name" : "Synapses_MySql_Database"
+    } ]
+  } ]
+}
