@@ -196,6 +196,7 @@
     <elementParameter field="FETCH_SCHEMA" name="FETCH_SCHEMA" value=""/>
     <elementParameter field="TEXT" name="LIMIT_PREVIEW" value="1000"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="EXCLUDE_TECHNICAL_COLUMNS" value="false"/>
     <metadata connector="FLOW" name="tDataPrepRun_1">
       <column comment="" defaultValue="" key="false" length="-1" name="ASSESSMENT_ID" nullable="false" originalDbColumnName="0000" pattern="" precision="-1" sourceType="String" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="ASSESSMENT_HISTORY_ID" nullable="false" originalDbColumnName="0001" pattern="" precision="-1" sourceType="String" type="id_String" originalLength="-1" usefulColumn="true"/>
